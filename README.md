@@ -2,6 +2,7 @@
 
 ## Contents
 
+- [cupcake](https://github.com/Hamuko/cupcake)
 - [openwith](https://github.com/jdek/openwith/)
 
 ## How do I install these formulae?
