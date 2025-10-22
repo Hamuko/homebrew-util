@@ -6,6 +6,12 @@ class Cupcake < Formula
   license "Apache-2.0"
   head "https://github.com/Hamuko/cupcake.git", branch: "master"
 
+  bottle do
+    root_url "https://github.com/Hamuko/homebrew-util/releases/download/cupcake-0.2.0"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "ce18fc626135e1f4c4af76aca53e66e15024dd113049d662da89a35579d20ed6"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "b7255a936a52378dc5ce6125c3447aeffe0206b9143a3ace8bd66d23dd44f1b0"
+  end
+
   depends_on "rust" => :build
 
   on_linux do
